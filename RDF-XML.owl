@@ -1,0 +1,541 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/BY48KuWOaL9iAiDbP0XxzX#"
+     xml:base="http://webprotege.stanford.edu/project/BY48KuWOaL9iAiDbP0XxzX"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/BY48KuWOaL9iAiDbP0XxzX"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/femaleAthlete -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/femaleAthlete">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc:female</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/gender -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/gender">
+        <rdfs:label>dc:gender</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/maleAthlete -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/maleAthlete">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dc:male</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3huniPrcb3wbd0QEqBiy2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3huniPrcb3wbd0QEqBiy2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dans Sporları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3yBVnOA1BW3VUuLT1mTUM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3yBVnOA1BW3VUuLT1mTUM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrak</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matrak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5xkLp9hkN4ROq0Jehif3n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5xkLp9hkN4ROq0Jehif3n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wp2nIfygRRQjX4WQfMj85"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kulplu Beygir</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kulplu Beygir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6U2Mj8i6lYbwSGSnO8ipo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6U2Mj8i6lYbwSGSnO8ipo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4x100 m</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label>Bayrak Koşuları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R791RcDpaVOQosmc6bwSpJo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R791RcDpaVOQosmc6bwSpJo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9cf6irmMBbCYaysEhX9mRi"/>
+        <dc:femaleAthlete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yelena Isinbayeva (RUS)</dc:femaleAthlete>
+        <dc:maleAthlete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Armand Duplantis</dc:maleAthlete>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sırıkla Yüksek Atlama</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlamalar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XtO9DeHJr2pYObau5ISOP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XtO9DeHJr2pYObau5ISOP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wp2nIfygRRQjX4WQfMj85"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halka</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halka</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8GWbH5JajQXdGexFhdciK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8GWbH5JajQXdGexFhdciK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aba Güreşi</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aba Güreşi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ROqWfTYVSrirdF7K4A6CV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ROqWfTYVSrirdF7K4A6CV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50 Metre</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pist Koşuları(Kısa Mesafe)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YfGLSYQd0RQihbLcJHwx1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8YfGLSYQd0RQihbLcJHwx1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9wik5VYFFjPWZpkkY5o5ro"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yol Bisikleti</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yol Bisikleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ebSZAX8kAwXslNF2S0BEN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ebSZAX8kAwXslNF2S0BEN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cimnastik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8g9oZNc0wJmpgnvz3vGjFj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8g9oZNc0wJmpgnvz3vGjFj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3huniPrcb3wbd0QEqBiy2"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Latin Amerika</dc:creator>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın &amp; Erkek (Eşli)</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Salsa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wp2nIfygRRQjX4WQfMj85 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wp2nIfygRRQjX4WQfMj85">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ebSZAX8kAwXslNF2S0BEN"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Artistik Cimnastik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R97CK5T7vdTe6DraM5NdvdT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R97CK5T7vdTe6DraM5NdvdT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wp2nIfygRRQjX4WQfMj85"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın&amp;Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yer Aleti</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yer Aleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9AX6Nu4ZZ3WyCYR7tML3iD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9AX6Nu4ZZ3WyCYR7tML3iD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9wik5VYFFjPWZpkkY5o5ro"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pist Bisikleti</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pist Bisikleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9DFdLk0sN9mC0msKY5tRRs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9DFdLk0sN9mC0msKY5tRRs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJL990GYw9xKYn7NMKlQlr"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sportif Aerobic</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sportif Aerobic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NcuLeRnEVWblCozVqdl1z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NcuLeRnEVWblCozVqdl1z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9wik5VYFFjPWZpkkY5o5ro"/>
+        <dc:femaleAthlete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mariana Pajón (COL)</dc:femaleAthlete>
+        <dc:maleAthlete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joris Daudet (FRA)</dc:maleAthlete>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMX Bisiklet</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMX Bisiklet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9cf6irmMBbCYaysEhX9mRi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9cf6irmMBbCYaysEhX9mRi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atletizm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rfqCfZnFfYsIpYUZ7osjf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rfqCfZnFfYsIpYUZ7osjf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">50 KM</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label>Yürüyüş Yarışmaları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9wik5VYFFjPWZpkkY5o5ro -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9wik5VYFFjPWZpkkY5o5ro">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bisiklet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9zit9IEfTFenyoVHsnBx30 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9zit9IEfTFenyoVHsnBx30">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5000 Metre</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label>Uzun Mesafe Koşuları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0IklhHwTSfATvVv1BuS1J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0IklhHwTSfATvVv1BuS1J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maraton</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label>Maraton ve Yol Koşuları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9Do0JF5yvskTOtl0lCZaK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9Do0JF5yvskTOtl0lCZaK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geleneksel Kızak</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geleneksel Kızak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO"/>
+        <rdfs:label>Geleneksel Sporlar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBcR0Vmj2TIbx7rgFl3Clb4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBcR0Vmj2TIbx7rgFl3Clb4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuşak Güreşi</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kuşak Güreşi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBl0WDBjxnoLO0OIDiuxkyO">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spor Dalları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsXJ0jieRxn2A6rRMwPpcd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBsXJ0jieRxn2A6rRMwPpcd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dekatlon</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label>Çoklu Yarışlar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2CnslRB8JNxjFFuNXSfX4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC2CnslRB8JNxjFFuNXSfX4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJL990GYw9xKYn7NMKlQlr"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurdela</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kurdela</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4eH7Q1Et1pLalxLBnl1Mc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4eH7Q1Et1pLalxLBnl1Mc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3huniPrcb3wbd0QEqBiy2"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arjantin</dc:creator>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın &amp; Erkek (Eşli)</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tango</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tango</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC8bV5NykRIZYfLtukEZr3f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC8bV5NykRIZYfLtukEZr3f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3huniPrcb3wbd0QEqBiy2"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İtalya</dc:creator>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın &amp; Erkek (Bireysel)</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bale</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJL990GYw9xKYn7NMKlQlr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJL990GYw9xKYn7NMKlQlr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ebSZAX8kAwXslNF2S0BEN"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ritmik Cimnastik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9cf6irmMBbCYaysEhX9mRi"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Koşular</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCg8YnbgHAu2k7V2P8Bnzgu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCg8YnbgHAu2k7V2P8Bnzgu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSx9tPylpv3jO9oE0IOwkS"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">800 Metre</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label>Pist Koşuları (Orta Mesafe)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCkbpxW1vN3jBVihEUrYzr8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCkbpxW1vN3jBVihEUrYzr8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJL990GYw9xKYn7NMKlQlr"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çember</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çember</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxEUHyY1lpCf9Vja09s06J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCxEUHyY1lpCf9Vja09s06J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJL990GYw9xKYn7NMKlQlr"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labut</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labut</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK3EOadrGG1D00IETSzato -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK3EOadrGG1D00IETSzato">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlı Okçuluk</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlı Okçuluk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaNADoEAIGYsm8aEPI8m95 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDaNADoEAIGYsm8aEPI8m95">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlı Cirit</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atlı Cirit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLBeS1Onhs1bdpTwqXrO2q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RLBeS1Onhs1bdpTwqXrO2q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9cf6irmMBbCYaysEhX9mRi"/>
+        <dc:femaleAthlete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barbora Špotáková</dc:femaleAthlete>
+        <dc:maleAthlete rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jan Železný</dc:maleAthlete>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cirit Atma</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atmalar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXH6IVbcdwObbxKdTJxmdj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXH6IVbcdwObbxKdTJxmdj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Şalvar Güreşi</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Şalvar Güreşi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnK7vrUJwmMRR0053DtrUG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnK7vrUJwmMRR0053DtrUG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9wik5VYFFjPWZpkkY5o5ro"/>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dağ Bisikleti</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dağ Bisikleti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpGE9rb0LUgbdgUXjTLHwK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RpGE9rb0LUgbdgUXjTLHwK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBHXjeMed2TvkPaFhYnaG47"/>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erkek</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rahvan Binicilik</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rahvan Binicilik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwOw9OdX6Z3MaQzhL8uQOI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwOw9OdX6Z3MaQzhL8uQOI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3huniPrcb3wbd0QEqBiy2"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orta Doğu</dc:creator>
+        <dc:gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kadın</dc:gender>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oryantal</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olimpik değil</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oryantal</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
